@@ -17,6 +17,8 @@ https://localhost:3000/sort?first_name=asc&last_name=desc&age=asc
 
 Method: POST
 
+https://localhost:3000/filter
+
 Request:
 
 {. 
