@@ -45,11 +45,14 @@ Method: GET
 
 https://localhost:3000/pages?page=1&size=10
 
-####Response:
+#### Response:
 
 {
+
     "items": [
+    
         {
+        
             "id": 1,
             "first_name": "Andrea",
             "last_name": "Duffus",
@@ -57,6 +60,7 @@ https://localhost:3000/pages?page=1&size=10
             "gender": "Female",
             "age": 24
         },
+        
         {
             "id": 2,
             "first_name": "Weider",
