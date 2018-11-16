@@ -39,6 +39,20 @@ Request:
     ] 
 } 
 
+#### Response:
+
+[
+
+    {
+        "id": 864,
+        "first_name": "Hi",
+        "last_name": "Dorrian",
+        "email": "hdorriannz@microsoft.com",
+        "gender": "Male",
+        "age": 91
+    }
+]
+
 ### Pagination:
 
 Method: GET
