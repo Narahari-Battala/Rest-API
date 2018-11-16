@@ -11,12 +11,13 @@ api.use(bodyParser.urlencoded({extended:true}))
 
 var data = require('./sample.json')
 var tdata = data
+var initialdata = data
 api.use('/sort',sortRoute);
 api.use('/pages',pageRoute);
 
 api.get('/', function(req,res){
 
-    res.status(200).json(data)
+    res.status(200).json(initialdata)
 })
 api.post('/filter',function(req,res)
 {
